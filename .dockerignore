@@ -1,0 +1,28 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore IDE or editor directories
+.vscode/
+.idea/
+
+# Ignore test result files
+*.log
+*.pytest_cache/
+
+# Ignore Docker build and image-related files
+Dockerfile
+.dockerignore
+
+# Ignore any other temporary or system files
+*.swp
+*.bak
+*.tmp
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
